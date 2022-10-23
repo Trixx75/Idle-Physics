@@ -1,0 +1,60 @@
+#upgradeButton{
+    position: relative;
+    right: 50px;
+    height: 40px;
+    width: 100px;
+}
+
+#formulaButton{
+    position: relative;
+    height: 40px;
+    width: 100px;
+}
+
+#changelog{
+    position: relative;
+    left: 90px;
+    height: 40px;
+    width: 100px;
+}
+
+#achievementsButton{
+    position: relative;
+    left: 50px;
+    height: 40px;
+    width: 100px;
+
+}
+
+#addTime{
+    position: relative;
+    right:100px;
+}
+
+#upgradeTime{
+    position: relative;
+    right:55px;
+    height: 40px;
+    width: 150px;
+}
+
+#unlockVelocity{
+    position: relative;
+    right:20px;
+    height: 40px;
+    width: 150px;
+}
+
+.upgradeVelocity{
+    position: relative;
+    right:20px;
+    height: 40px;
+    width: 150px;
+}
+
+.upgradeDistance{
+    position: relative;
+    left:9px;
+    height: 40px;
+    width: 150px;
+}

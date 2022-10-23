@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="buttons.css">
+    <script src="interface.js"></script>
+    <script src="mainMenuButtons.js"></script>
+</head>
+
+<body>
+		
+    <div class="screen">
+    
+        <div class="stats">
+            <pre> Time: <span id="totalTime"> 0 </span> s [+<span id="textTimePerSecond">0</span>]</pre>
+            <pre class="totalVelocity">  Velocity: <span id="totalVelocity"> 0 </span> mm/s [+<span id="textVelocityPerSecond">0</span>]</pre>
+            <pre class="totalDistance"> Distance: <span id="totalDistance"> 0 </span> mm [+<span id="textTimePerSecond">0</span>] </pre>
+        </div>
+        
+        <div class="mainMenu">
+            <button id="upgradeButton">Upgrades</button>
+            <button id="formulaButton">Formulas</button>
+            <button id="achievementsButton"> Achievements </button>
+            <button id="changelog"> Changelog</button>
+        </div>
+        
+        <div class="upgradeTab">
+            <!--<button id="addTime"> add 50 time </button>-->
+            <button id="upgradeTime">Upgrade time +1 <br> cost: <span id="timeUpgradeCost"> 0 </span> </button>
+            <button class="unlockVelocity" id="unlockVelocity">Unlock Velocity <br> cost: 100 seconds  </button>       
+            <button class="upgradeVelocity" id="upgradeVelocity">Upgrade Velocity +1 <br> cost: <span id="velocityUpgradeCost"> 30 </span> seconds  </button>
+            <button class="upgradeDistance"> Upgrade distance +1 <br> cost: 0</button>
+        </div>
+        
+        <div class="formulaTab">
+            <button class="unlockDistance" id="unlockDistance"> <span id="unlockText"> Unlock Distance formula <br> cost: 200 seconds and 100 mm/s </span></button>
+        </div>
+        
+        <div class = "achievementsTab">
+
+            <h3 class="text"> Achievements </h3>
+            <div class="achievementsText">
+                <pre class="achText">Obtain 1000 seconds</pre>
+            </div>
+            
+
+            <div class="allAchievements">
+               
+                <img src="ach.png" alt="drawing of a cat" class="ach1" id="TimeAch1"></img>
+                <!--<img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>
+                <img src="ach.png" class="ach1"> </img>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
